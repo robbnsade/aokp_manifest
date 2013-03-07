@@ -1,10 +1,8 @@
-Repository for AOKP/Funky Kernel brunching
+Repository for AOKP brunching
 
 To pull source run:
-$ repo init -u https://github.com/Snuzzo/funky_aokp_manifest.git -b ics
+$ repo init -u https://github.com/VigorAOKP/aokp_manifest.git -b jb422
 $ repo sync
 
-To build:
-. build/envsetup.sh && brunch vigor -j"#"
 
 

@@ -16,14 +16,14 @@
   <default remote="aosp"
            sync-j="7" />
 
-  <project path="build" name="Snuzzo/build" revision="ics" remote="gh">
+  <project path="build" name="VigorAOKP/build" revision="ics" remote="gh">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="bionic" name="AOKP/bionic" remote="gh" revision="ics" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="bootable/recovery" name="Snuzzo/android_bootable_recovery" remote="gh" revision="aokp-ics" />
+  <project path="bootable/recovery" name="VigorAOKP/android_bootable_recovery" remote="gh" revision="aokp-ics" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="dalvik" name="AOKP/platform_dalvik" remote="gh" revision="ics" />
   <project path="development" name="AOKP/platform_development" remote="gh" revision="ics" />
@@ -34,7 +34,7 @@
   <project path="device/htc/vigor" name="Snuzzo/device_htc_vigor" remote="gh" revision="aokp-ics" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="gh" revision="gingerbread" />
   <project path="device/htc/msm7x30-common" name="AOKP/device_htc_msm7x30-common" remote="gh" revision="ics" />
-  <project path="device/htc/msm8660-common" name="Snuzzo/android_device_htc_msm8660-common" remote="gh" revision="aokp-ics" />
+  <project path="device/htc/msm8660-common" name="VigorAOKP/android_device_htc_msm8660-common" remote="gh" revision="aokp-ics" />
   <project path="device/htc/msm8960-common" name="AOKP/device_htc_msm8960-common" remote="gh" revision="ics" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -160,7 +160,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/yaffs2" name="AOKP/external_yaffs2" remote="gh" revision="ics" />
   <project path="external/zlib" name="AOKP/external_zlib" remote="gh" revision="ics" />
-  <project path="frameworks/base" name="Snuzzo/aokp_frameworks_base" remote="gh" revision="ics" />
+  <project path="frameworks/base" name="VigorAOKP/aokp_frameworks_base" remote="gh" revision="ics" />
   <project path="frameworks/compile/libbcc" name="AOKP/frameworks_compile_libbcc" remote="gh" revision="ics" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" remote="gh" revision="ics" />
@@ -189,7 +189,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="hardware/ti/wlan" name="AOKP/hardware_ti_wlan" remote="gh" revision="ics" />
   <project path="hardware/ti/wpan" name="AOKP/hardware_ti_wpan" remote="gh" revision="ics" />
-<project path="kernel/htc/vigor-3.0" name="Snuzzo/funky_kernel" remote="gh" revision="aosp-ics" />
+  <project path="kernel/htc/vigor-3.0" name="VigorAOKP/vigor_aosp_kernel" remote="gh" revision="ics" />
   <project path="libcore" name="AOKP/libcore" remote="gh" revision="ics" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -214,11 +214,11 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Nfc" name="AOKP/packages_apps_Nfc" remote="gh" revision="ics"/>
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="packages/apps/Phone" name="Snuzzo/packages_apps_Phone" remote="gh" revision="ics" />
+  <project path="packages/apps/Phone" name="VigorAOKP/packages_apps_Phone" remote="gh" revision="ics" />
   <project path="packages/apps/AOKPtips" name="AOKP/packages_apps_AOKPtips" remote="gh" revision="ics"/>
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="packages/apps/Settings" name="Snuzzo/packages_apps_Settings" remote="gh" revision="ics" />
+  <project path="packages/apps/Settings" name="VigorAOKP/packages_apps_Settings" remote="gh" revision="ics" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -257,7 +257,7 @@
   <project path="system/vold" name="AOKP/system_vold" remote="gh" revision="ics" />
   <project path="vendor/aokp" name="Snuzzo/vendor_aokp" remote="gh" revision="ics" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="gh" revision="ics" />
-  <project path="vendor/htc/vigor" name="Snuzzo/vendor_htc_vigor" remote="gh" revision="aokp-ics" />
+  <project path="vendor/htc/vigor" name="VigorAOKP/vendor_htc_vigor" remote="gh" revision="aokp-ics" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="gh" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="AOKP/vendor_qcom_opensource_omx_mm-core" remote="gh" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-video" name="AOKP/vendor_qcom_opensource_omx_mm-video" remote="gh" revision="ics" />
@@ -278,5 +278,5 @@
   <project name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" path="vendor/tmobile/libs/com.tmobile.themes" revision="refs/heads/ics" remote="gh" />
   <project name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" revision="refs/heads/ics" remote="gh" />
   <project name="CyanogenMod/android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" revision="refs/heads/ics" remote="gh" />
-  <project path="platform_manifest" name="Snuzzo/funky_aokp_manifest" remote="gh" revision="ics" />
+  <project path="platform_manifest" name="VigorAOKP/funky_aokp_manifest" remote="gh" revision="ics" />
 </manifest>
